@@ -1,8 +1,8 @@
 import React from 'react';
 import {render} from 'react-dom'
-import Calender from './components/Calendar'
+import Login from './components/Login'
 
 render(
-    <Calender/>,
+    <Login/>,
     document.getElementById('root')
 );
