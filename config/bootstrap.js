@@ -12,7 +12,7 @@ const moment = require('moment');
 
 module.exports.bootstrap = function (cb) {
 	console.log('Bootstrapping...');
-	
+
 	Bootstrap.createEmptyAppointments(moment());
 
 	sails.config.permissions.adminUsername = 'admin';
